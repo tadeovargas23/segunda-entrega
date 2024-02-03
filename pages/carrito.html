@@ -24,26 +24,124 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Tienda</a>
+            <a class="nav-link" href="tienda.html">Tienda</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="../index.html#contactoo">Contacto</a>
           </li>
 
         </ul>
 
         <span class="navbar-button">
-          <button class="btn btn-primary btn-primary-outline-success" type="button">Tu carrito</button>
+            <a href="carrito.html">
+                <button class="btn btn-primary btn-primary-outline-success" type="button">Tu carrito</button>
+            </a>
         </span>
   
       </div>
     </div>
   </nav>
+  <main>
+    <div class="linea-compra text-center">
+      <div class="row">
+        <div class="col d-flex flex-column align-items-center">
+          <h5 class="fw-bold">1.Carrito de compras</h5>
+          <div class="barra-carga1"></div>
+        </div>
+        <div class="col d-flex flex-column align-items-center">
+          <h5>2.Detalles de envio</h5>
+          <div class="barra-carga"></div>
+        </div>
+        <div class="col d-flex flex-column align-items-center">
+          <h5>3.Metodo de pago</h5>
+          <div class="barra-carga"></div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="titulo-carrito">Carrito de compras</h3>
+
+    <div class="contenedor-carrito row">
+      <div class="col-md-4">
+        <!-- Columna de la imagen -->
+        <div class="imagen-carrito">
+          <img src="../assets/images/gengar.jpg" alt="imagen del producto">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <!-- Columna del texto y precio -->
+        <div class="texto-carrito ms-3">
+          <h3>Sticker Gengar</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Dolorem, voluptatem!</p>
+          <p>200$</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="resumen-compra ms-3">
+          <h3>Resumen de la Compra</h3>
+          <div class="contenedor-resumen text-center">
+            <div class="row">
+              <div class="col d-flex justify-content-start">
+                Subtotal
+              </div>
+              <div class="col">
+                200$
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-resumen text-center">
+            <div class="row">
+              <div class="col d-flex justify-content-start">
+                Envio
+              </div>
+              <div class="col">
+                Gratis
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-resumen text-center">
+            <div class="row">
+              <div class="col d-flex justify-content-start">
+                Impuestos
+              </div>
+              <div class="col">
+                200$
+              </div>
+            </div>
+          </div>
+          <div class="linea-resumen"></div>
+          <div class="contenedor-resumen text-center">
+            <div class="row">
+              <div class="col d-flex justify-content-start">
+                Total
+              </div>
+              <div class="col">
+                400$
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="linea-carrito"></div>
+    <div class="boton-siguiente mb-3">
+      <a href="envio.html">
+        <button type="button" class="btn btn-success me-4">Siguiente</button>
+      </a>
+      <a href="tienda.html">
+        <button type="button" class="btn btn-danger">Cancelar</button>
+      </a>
+    </div>
+    
+
+    </div>
+  </main>
 
 
 
@@ -53,24 +151,23 @@
 
 
 
-  
   <footer class="w-100">
     <div class="container text-center">
       <div class="row align-items-start">
         <div class="col">
           <h4>MENU PRINCIPAL</h4>
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Tienda</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="../index.html#contactoo">Contacto</a></li>
           </ul>
         </div>
         <div class="col">
           <h4>SIGUENOS</h4>
           <ul>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Facebook</a></li>
+            <li><a href="https://www.instagram.com">Instagram</a></li>
+            <li><a href="https://www.twitter.com">Twitter</a></li>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
           </ul>
         </div>
       </div>

@@ -1,17 +1,11 @@
 @font-face {
-    font-family: "akira";
-    src: url(../assets/fonts/akira.otf);
-}
-@font-face {
-    font-family: "neue-power";
-    src: url(../assets/fonts/neue-power.ttf);
+    font-family: "flipa";
+    src: url(../assets/fonts/LTPanneaux-Regular.ttf);
 }
 
 body{
-    overflow-x: hidden;
-    display: grid;
+    font-family: "flipa";
 }
-
 
 #menu a{
     font-size:  18px;
@@ -24,7 +18,9 @@ body{
     font-weight: bold;
 }
 
-
+.parrafo-index{
+    font-size: 14px
+}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -57,6 +53,15 @@ body{
     margin-left: 10px;
 }
 
+.contacto,
+.mb-3{
+    width: 75%;
+}
+
+.parrafo-contacto{
+    font-size: 15px;
+}
+
 footer{
     margin-top: 60px;
     text-decoration: none;
@@ -74,4 +79,122 @@ a{
 
 .copyright{
     margin-left: 10px;
+}
+
+.busqueda{
+    display: flex;
+    justify-content: center;
+}
+
+.barra-busqueda{
+    width: 50%;
+}
+
+.boton-buscar{
+    margin-left: 10px;
+}
+
+.titulo-noticias{
+    margin-top: 60px;
+}
+
+.titulo-catalogo{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.zoom-image {
+    transition: transform 0.3s ease;
+  }
+  
+  .zoom-image:hover {
+    transform: scale(1.1);
+  }  
+
+.columna-1{
+    margin-bottom: 60px;
+}
+
+.imagen-producto, img{
+    width: 90%;
+}
+
+.precio{
+    font-size: xx-large;
+    margin-top: 30px;
+}
+
+.descripcion{
+    font-size: medium;
+    margin-top: 30px;
+}
+
+.barra-carga{
+    width: 90%;
+    background-color: grey;
+    height: 1px;
+    
+}
+
+.barra-carga1{
+    width: 90%;
+    background-color: black;
+    height: 1px;
+}
+
+.titulo-carrito{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.contenedor-carrito{
+    margin-top: 20px;
+}
+
+.texto-carrito{
+    margin-top: 50px;
+}
+
+.imagen-producto{
+    width: 20%;
+}
+
+.linea-carrito {
+    width: 65%; 
+    height: 1px; 
+    background-color: grey;
+} 
+
+.col-md-4, p{
+    font-size: 25px;
+}
+
+.linea-resumen {
+    width: 84%; 
+    height: 1px; 
+    background-color: grey;
+    
+} 
+
+.contenedor-resumen, col{
+    margin-bottom: 30px;
+}
+
+.boton-siguiente{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.contenedor-envio{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.boton-siguientee{
+    margin-top: 40px;
+}
+
+.resumen-compraa{
+    font-size: 20px;
+    margin-top: 15px;
 }
