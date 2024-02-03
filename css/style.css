@@ -1,87 +1,77 @@
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Estilos para la barra de navegación */
-  nav {
-    background-color: #f8f9fa;
-    padding: 15px 0;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .marca {
+@font-face {
+    font-family: "akira";
+    src: url(../assets/fonts/akira.otf);
+}
+@font-face {
+    font-family: "neue-power";
+    src: url(../assets/fonts/neue-power.ttf);
+}
+
+body{
+    overflow-x: hidden;
+    display: grid;
+}
+
+
+#menu a{
+    font-size:  18px;
     font-weight: bold;
+    color: black;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; 
+}
+
+.carousel-indicators .active {
+    background-color: black; 
+}
+
+.separator-line {
+    width: 100%;
+    border-bottom: 1px solid grey;
+    margin-top: 50px;
+}
+
+.separator-line2 {
+    width: 50%; 
+    height: 1px; 
+    background-color: grey;
+    margin: 40px auto;
+} 
+
+.ver-mas{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.contacto{
+    margin-left: 10px;
+}
+
+footer{
+    margin-top: 60px;
     text-decoration: none;
-    color: #212529;
-  }
-  
-  #carrito {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  #carrito:hover {
-    background-color: #0056b3;
-  }
-  
-  .menu ul {
+}
+
+ul{
     list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .menu li {
-    margin-right: 20px;
-  }
-  
-  .menu a {
+}
+
+.col,
+a{
     text-decoration: none;
-    color: #495057;
-    font-weight: bold;
-  }
-  
-  /* Estilos para la sección de Búsqueda y Noticias */
-  .contenedor {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .grupo-busqueda,
-  .grupo-correo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 10px;
-  }
-  
-  .buscar-input,
-  .correo-input {
-    margin-top: 10px;
-    width: 60%; /* Ancho ajustable según tu preferencia */
-    
-  }
-  
-  .buscar-btn,
-  .correo-btn {
-    margin-top: 10px;
-    width: 100%; /* Ancho ajustable según tu preferencia */
-  }
-  
-  /* Estilos para la sección de Búsqueda */
-  .contenedor h4 {
-    margin-bottom: 10px;
-  }
-  
+    color: black;
+}
+
+.copyright{
+    margin-left: 10px;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<!-- Barra de Navegación con Flexbox -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top d-flex justify-content-between align-items-center">
+    <a class="navbar-brand" href="#">Toy Pega'o</a>
+    <!-- Convertir "Tu Carrito" en un botón y colocarlo a la derecha del título -->
+    <a class="btn btn-outline-light" href="#">Tu Carrito</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Alternar navegación">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tienda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container">
+
+    <!-- Barra de búsqueda con título -->
+    <div class="row barra-busqueda">
+      <div class="col-md-12 text-center mb-4">
+        <h2>Busca algún producto</h2>
+      </div>
+      <div class="col-md-8">
+        <input type="text" class="form-control" placeholder="Buscar productos...">
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-primary btn-block">Buscar</button>
+      </div>
+    </div>
+
+    <!-- Sección de suscripción con pseudoclase hover -->
+    <div class="row seccion-suscripcion">
+      <div class="col-md-12 text-center mb-4">
+        <h2>Suscríbete a nuestras notificaciones</h2>
+        <p>Si te interesaría ser el primero en comprar nuestros productos, puedes enterarte ingresando tu correo electrónico.</p>
+      </div>
+      <div class="col-md-8">
+        <input type="email" class="form-control" placeholder="Tu correo electrónico">
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-success btn-block">Enviar</button>
+      </div>
+    </div>
+
+    <!-- Título del catálogo -->
+    <div class="row titulo-catalogo">
+      <div class="col-md-12 text-center mb-4">
+        <h2>Nuestro Catálogo</h2>
+      </div>
+    </div>
+
+    <!-- Sección de catálogo con Grid y pseudoclase hover -->
+    <div class="row seccion-catalogo">
+      <div class="col-md-4">
+        <img src="../assets/images/gengar.jpg" alt="Producto 1">
+        <h3>Nombre Producto 1</h3>
+        <p>Precio: $XX.XX</p>
+      </div>
+      <div class="col-md-4">
+        <img src="../assets/images/charmander.jpg" alt="Producto 2">
+        <h3>Nombre Producto 2</h3>
+        <p>Precio: $XX.XX</p>
+      </div>
+      <div class="col-md-4">
+        <img src="../assets/images/fantasma.jpg" alt="Producto 3">
+        <h3>Nombre Producto 3</h3>
+        <p>Precio: $XX.XX</p>
+      </div>
+      <div class="col-md-4">
+        <img src="../assets/images/sticker-carita.jpg" alt="Producto 4">
+        <h3>Nombre Producto 4</h3>
+        <p>Precio: $XX.XX</p>
+      </div>
+      <div class="col-md-4">
+        <img src="../assets/images/ankara-messi.jpg" alt="Producto 5">
+        <h3>Nombre Producto 5</h3>
+        <p>Precio: $XX.XX</p>
+      </div>
+      <div class="col-md-4">
+        <img src="../assets/images/se-viene-bocaaa.jpg" alt="Producto 6">
+        <h3>Nombre Producto 6</h3>
+        <p>Precio: $XX.XX</p>
+      </div>
+    </div>
+
+  <!-- Pie de página con pseudoclase hover -->
+  <footer class="footer-section text-center >">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h4>MENU PRINCIPAL</h4>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h4>SIGUENOS</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts de Bootstrap (asegúrate de tener conexión a internet para cargarlos) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+<style>
+  /* Estilos personalizados */
+body {
+  padding-top: 120px;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-section {
+  background-color: black;
+  padding: 20px 0;
+  color: white;
+  margin-top: 20px;
+}
+
+.footer-section a {
+  color: white; /* Establece el color de los enlaces a blanco */
+}
+
+/* Aplicar grid a la sección de catálogo */
+
+
+/* Estilos al pasar el ratón sobre los enlaces del menú principal y las imágenes del catálogo */
+
+.seccion-catalogo img:hover {
+  opacity: 0.8; 
+}
+
+
+</style>
