@@ -1,11 +1,14 @@
 @font-face {
-    font-family: "flipa";
+    font-family: "panne";
     src: url(../assets/fonts/LTPanneaux-Regular.ttf);
 }
 
 body{
-    font-family: "flipa";
+    font-family: "panne";
+    background-color: #ecf0f1;
+    color: #2c3e50;
 }
+
 
 #menu a{
     font-size:  18px;
@@ -65,6 +68,7 @@ body{
 footer{
     margin-top: 60px;
     text-decoration: none;
+    background-color: #3498db;
 }
 
 ul{
@@ -198,3 +202,65 @@ a{
     font-size: 20px;
     margin-top: 15px;
 }
+
+.tarjeta{
+    margin-bottom: 100px;
+}
+
+.navbar {
+    background-color: #3498db;
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    background-color: #ecf0f1;
+  }
+
+  .navbar-nav .nav-link {
+    color: #ecf0f1;
+  }
+
+  .navbar-nav .nav-link.active {
+    color: #ecf0f1;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #ecf0f1;
+  }
+
+  .navbar-button button {
+    background-color: #3498db;
+    color: #ecf0f1;
+  }
+
+  /* Encabezado (h1) */
+  h1 {
+    color: #3498db;
+  }
+
+  /* Botones principales */
+  .btn-primary {
+    background-color: #3498db;
+    color: #ecf0f1;
+  }
+
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+
+  /* Botones de acción (resaltar) */
+  .btn-primary-outline-success {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+  }
+
+  .btn-primary-outline-success:hover {
+    background-color: #c0392b;
+  }
+
+  /* Cuerpo de la página */
+  body {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+  }
+
+  
